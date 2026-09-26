@@ -22,7 +22,7 @@ Plain static HTML/CSS with no build step. Signups go through the beehiiv embed f
 4. At your DNS provider, add a CNAME record: `join` → `<your-site-name>.netlify.app`.
 5. Netlify issues the HTTPS certificate automatically once DNS resolves.
 
-## Updating the "Latest issue"
+## Changing the "Featured issue"
 
-Swap the image in `assets/`, then edit the title, excerpt and link in the first
+Optional, whenever you want to feature a different issue: swap the image in `assets/`, then edit the title, excerpt and link in the first
 `<article class="sample">` block of `index.html`.
